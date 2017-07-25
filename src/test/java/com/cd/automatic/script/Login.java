@@ -7,7 +7,7 @@ import org.openqa.selenium.support.ui.Select;
 public class Login extends BaseScript{
 
 	public void test() {
-		driver.get("D:\\work\\a.html");
+		driver.get("http://www.baidu.com");
 	}
 	public String login() {
 		try {
