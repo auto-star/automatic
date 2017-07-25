@@ -11,8 +11,8 @@ public class Login extends BaseScript{
 	}
 	public String login() {
 		try {
-			WebElement element=driver.findElement(By.xpath("//select[@id='sec']"));
-			new Select(element).selectByVisibleText("a");
+//			WebElement element=driver.findElement(By.xpath("//select[@id='sec']"));
+//			new Select(element).selectByVisibleText("a");
 		}catch(Exception e) {
 			e.printStackTrace();
 		}

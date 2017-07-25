@@ -13,7 +13,7 @@ public class TestLogin extends BaseCase{
 		Login login=scriptFactory.createScript(Login.class);
 		login.test();
 		String title=login.login();
-		Assert.assertEquals(title, "1","1");
+		Assert.assertEquals(title, "百度一下，你就知道","1");
 	}
 
 }
